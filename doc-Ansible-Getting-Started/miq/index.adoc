@@ -1,4 +1,4 @@
-= Managing Providers
+= Getting Started with Ansible Automation in ManageIQ
 :imagesdir: images
 :vernum: 0
 :doctype: book
@@ -14,49 +14,29 @@ include::common/attributes/miq.adoc[]
 
 :numbered:
 
-{product-title} can manage a variety of external environments, known as providers and managers. A provider or manager is any system that {product-title_short} integrates with for the purpose of collecting data and performing operations.
+Ansible integrates with {product-title} to provide automation solutions, using playbooks, for Service, Policy and Alert actions. 
+Ansible playbooks consist of series of _plays_ or tasks that define automation across a set of hosts,
+known as the inventory. 
 
-In {product-title_short}, a _provider_ is an external virtualization, cloud, or containers environment that manages multiple virtual machines or instances residing on multiple hosts. One example is Red Hat Virtualization, a platform that manages multiple hosts and virtual machines.
+Ranging from simple to complex tasks, Ansible playbooks can support cloud management:
 
-In {product-title_short}, a _manager_ is an external management environment that manages more than one type of resource. One example of a manager is OpenStack, which manages infrastucture, cloud, network, and storage resources.
+* *Services* - allow a playbook to back a {product-title_short} service catalog item.
+* *Control Actions* - {product-title_short} policies can execute playbooks as actions based on events from providers.
+* *Control Alerts* - set a playbook to launch prompted by a {product-title_short} alert.
 
-This guide covers working with providers and managers in {product-title_short}, which include:
+Ansible is built into {product-title_short} so there is nothing to install. The basic workflow when using Ansible in {product-title} is as follows:
 
-* Infrastructure providers
-* Configuration management providers
-* Automation management providers
-* Cloud providers
-* Networking management providers
-* Container providers
-* Storage managers
-
-For information on working with the resources contained by a provider or manager, see _Managing Infrastructure and Inventory_.
-
-
-:leveloffset: 1
-include::doc-Managing_Providers/miq/topics/Infrastructure_Providers.adoc[]
+. Enable the *Embedded Ansible* server role.
+. Add a source control repository that contains your playbooks.
+. Establish credentials with your inventory. 
+. Back your services, alerts and policies using available playbooks. 
 
 
 :leveloffset: 1
-include::doc-Managing_Providers/miq/topics/Configuration_Management_Providers.adoc[]
-
-:leveloffset: 1
-include::doc-Managing_Providers/miq/topics/Automation_Management_Providers.adoc[]
+include::.adoc[]
 
 
-:leveloffset: 1
-include::doc-Managing_Providers/miq/topics/Cloud_Providers.adoc[]
 
-
-:leveloffset: 1
-include::doc-Managing_Providers/miq/topics/Networking_Providers.adoc[]
-
-:leveloffset: 1
-include::doc-Managing_Providers/miq/topics/Containers_Providers.adoc[]
-
-
-:leveloffset: 1
-include::doc-Managing_Providers/miq/topics/Storage_Managers.adoc[]
 
 
 [appendix]

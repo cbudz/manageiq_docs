@@ -1,10 +1,9 @@
-<title>Managing Providers</title>
+<title>Getting Started with Ansible Automation</title>
 <productname>Red Hat CloudForms</productname>
 <productnumber>4.7-Beta</productnumber>
-<subtitle>Managing your infrastructure, cloud, and containers providers</subtitle>
+<subtitle>Using Ansible with Red Hat CloudForms Automate</subtitle>
 <abstract>
-   <para>This guide covers managing your infrastructure, cloud, and containers providers and system managers in Red Hat CloudForms.</para>
-   <para>If you have a suggestion for improving this guide or have found an error, please submit a Bugzilla report at <link xlink:href="https://bugzilla.redhat.com/enter_bug.cgi?product=Red%20Hat%20CloudForms%20Management%20Engine">http://bugzilla.redhat.com</link> against <emphasis role="strong">Red Hat CloudForms Management Engine</emphasis> for the <emphasis role="strong">Documentation</emphasis> component. Please provide specific details, such as the section number, guide name, and CloudForms version so we can easily locate the content.</para>
+   <para>This guide explores how Ansible Automation can be used to create services and policies based on Ansible playbooks to provision new environments and control lifecycle over time by associating resources to ManageIQ services. .</para>
 </abstract>
 <authorgroup id="Author_Group">
         <author>

@@ -1,9 +1,9 @@
-<title>Managing Providers</title>
+<title>Getting Started with Ansible Automation</title>
 <productname>ManageIQ</productname>
 <productnumber>0</productnumber>
-<subtitle>Managing your infrastructure, cloud, and containers providers</subtitle>
+<subtitle>Using Ansible with ManageIQ Automate</subtitle>
 <abstract>
-   <para>This guide covers managing your infrastructure, cloud, and containers providers and system managers in ManageIQ.</para>
+   <para>This guide explores how Ansible Automation can be used to create services and policies based on Ansible playbooks to provision new environments and control lifecycle over time by associating resources to ManageIQ services. .</para>
 </abstract>
 <authorgroup id="Author_Group">
         <author>
