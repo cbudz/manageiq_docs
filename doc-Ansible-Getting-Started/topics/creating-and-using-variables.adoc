@@ -1,0 +1,14 @@
+= Creating and Using Variables in {product-title}
+
+This workflow describes the process of creating and using variables in {product-title}.
+
+
+[[variables]]
+== Variables
+
+include::variables.adoc[]
+
+[[extra-variables]]
+== Extra Variables
+
+include::extra-variables[]

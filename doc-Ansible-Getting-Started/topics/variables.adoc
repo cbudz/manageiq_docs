@@ -1,0 +1,14 @@
+A variable is an element, feature, or factor that is liable to vary or change. Variables are central to the types of Ansible items {product-title_short} supports. 
+
+Example: 
+* *Name*: IP Address
+* *Value*: 10.1.2.51 (confirm IP addresses reserved for documentation)
+
+=== Common Use Cases for Variables in {product-title_short} 
+
+Variables have three common uses when working with Ansible automation in {product-title_short}.
+
+|Type|Example
+|Service Dialogs|Used when prompting the user for a specific value
+|Input for {product-title_short} Automation|Gather input such as a hostname required by the automation run
+|Input for {product-title_short} Automation by a Custom Button|Pass value for a cluster name to a playbook
