@@ -1,0 +1,5 @@
+Ansible playbooks consume variables called extra variables.
+
+Extra variables are simply variables passed to the playbook that it can access internally when it executes. 
+
+
