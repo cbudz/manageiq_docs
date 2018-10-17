@@ -116,6 +116,8 @@ include::update_provider.adoc[]
 
 include::delete_provider.adoc[]
 
+include::retrieve_info_on_infra_providers.adoc[]
+
 [[_sect_services]]
 === Services
 

@@ -1,0 +1,54 @@
+[[retrieve-info-infra-providers]]
+==== Retrieve Information on Infrastructure Providers
+
+Retrieve information on infrastructure providers using {product-title} REST API.
+
+
+===== Request:
+
+------
+GET /api/providers/101/lans
+------
+
+[source,json]
+------
+{
+  "action" : "assign",
+  "resources" : [
+    { "category" : "location", "name" : "ny" },
+    { "category" : "department", "name" : "finance" },
+    { "category" : "environment", "name" : "dev" }
+  ]
+}
+------
+
+===== Response:
+
+[source,json]
+------
+{
+  "results": [
+    {
+      "success": true,
+      "message": "Assigning Tag: category:'location' name:'ny'",
+      "href": "https://hostname/api/services/101",
+      "tag_category": "location",
+      "tag_name": "ny"
+    },
+    {
+      "success": true,
+      "message": "Assigning Tag: category:'department' name:'finance'",
+      "href": "https://hostname/api/services/101",
+      "tag_category": "department",
+      "tag_name": "finance"
+    },
+    {
+      "success": true,
+      "message": "Assigning Tag: category:'environment' name:'dev'",
+      "href": "https://hostname/api/services/101",
+      "tag_category": "environment",
+      "tag_name": "dev"
+    }
+  ]
+}
+------
