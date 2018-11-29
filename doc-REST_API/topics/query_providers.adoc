@@ -1,0 +1,30 @@
+[[query-provider]]
+==== Querying Infrastructure Providers
+
+Query information on infrastructure providers.
+
+===== Request:
+
+Provider lans
+------
+GET /api/providers/:id/lans
+------
+Host lans
+------
+GET /api/hosts/:id/lans
+------
+Provider networks
+------
+GET /api/providers/:id/networks
+------
+Provider folders. Also returns Datacenters.
+------
+GET /api/providers/:id/folders
+------
+
+Retrieve in a single query:
+
+------
+GET /api/providers/:id?expand=resources,lans,networks,folders
+------
+
