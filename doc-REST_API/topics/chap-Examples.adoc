@@ -106,6 +106,8 @@ include::auto-placement-provisioning-request.adoc[]
 
 This section provides examples of how to interact with providers.
 
+include::query_providers.adoc[]
+
 include::create_provider.adoc[]
 
 include::create_provider_compound_credentials.adoc[]

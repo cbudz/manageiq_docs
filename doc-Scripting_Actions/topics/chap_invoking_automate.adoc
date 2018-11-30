@@ -24,3 +24,4 @@ include::Initiating_Automate_from_an_Event1.adoc[]
 include::To_create_a_Policy_for_Automate1.adoc[]
 
 include::To_create_a_custom_Automate_Action1.adoc[]
+
