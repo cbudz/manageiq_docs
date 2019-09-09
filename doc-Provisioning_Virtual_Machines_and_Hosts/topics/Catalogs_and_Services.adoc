@@ -53,7 +53,7 @@ include::common/edit-dynamic-resource-object.adoc[]
 include::common/remove-dynamic-resource-object.adoc[]
 
 [[export-generic-objects]]
-===== Exporting Generic Objects
+===== Exporting Generic Object Classes
 
 Export generic objects from {product-title} to create a shared library.
 
@@ -61,12 +61,28 @@ Exporting a generic object requires the object has been created in {product-titl
 
 include::common/export-generic-objects.adoc[]
 
-Locate the exported yaml file containing the generic object properties in the temporary folder.
+Locate the exported yaml file containing the generic object properties in the temporary folder. See below for an example generic object class yaml file:
+
+------
+---
+- GenericObjectDefinition:
+    name: GenericObjectClassName
+    description: A generic object definition
+    properties:
+      :attributes: {}
+      :associations: {}
+      :methods: []
+------
 
 [[import-generic-objects]]
-===== Importing Generic Objects
+===== Importing Generic Objects Classes
 
 Import generic objects to {product-title_short} from a shared library.
+
+[NOTE]
+====
+Copy the generic object class yaml file to the desired appliance before following the import procedure.
+====
 
 include::common/import-generic-objects.adoc[]
 

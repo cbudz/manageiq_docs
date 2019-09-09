@@ -4,7 +4,7 @@ Procedure
 . Navigate to `/var/www/miq/vmdb`:
 +
 ------
-# cd /var/www/miq/vmdb
+# vmdb
 ------
 +
 . Create a temporary directory to store the generic object definitions:
