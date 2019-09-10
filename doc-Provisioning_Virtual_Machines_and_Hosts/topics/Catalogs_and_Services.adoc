@@ -75,7 +75,7 @@ Locate the exported yaml file containing the generic object properties in the te
 ------
 
 [[import-generic-objects]]
-===== Importing Generic Objects Classes
+===== Importing Generic Object Classes
 
 Import generic objects to {product-title_short} from a shared library.
 
